@@ -6,15 +6,15 @@ import Navbar from "./Navbar";
 
 const Main = () => {
   return (
-    <main className=" w-screen h-screen relative bg-gradient-to-r from-purple-900 to-pink-900 overflow-hidden">
+    <main className="w-screen h-screen relative bg-gradient-to-r from-purple-900 to-pink-900 overflow-hidden">
       <div className="absolute lg:px-20 px-5 py-4 w-full z-50">
         <Navbar />
       </div>
-      <div className="w-screen h-screen md:grid md:grid-cols-2 relative">
+      <div className="w-full h-screen md:grid md:grid-cols-2 relative">
         {/* Text Content */}
         <div className="w-full h-full top-0 left-0 opacity-90 absolute lg:relative z-10">
           <div className="w-full h-full flex flex-col justify-center items-center lg:text-start md:px-20 text-center px-2 space-y-10 md:space-y-16 lg:space-y-6 bg-black/40 lg:bg-transparent">
-            <h1 className="font-extrabold text-4xl md:text-5xl text-white lg:text-start">
+            <h1 className="font-extrabold text-4xl lg:text-5xl text-white lg:text-start">
               BEST MUSIC FOR YOUR NEXT PROJECT
             </h1>
             <p className="w-5/6 md:w-full mt-3 text-white">
