@@ -1,4 +1,5 @@
 import Clients from "./components/Clients";
+import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Services from "./components/Services";
 import TopSongs from "./components/TopSongs";
@@ -11,6 +12,7 @@ export default function Home() {
       <Services />
       <TopSongs />
       <Clients />
+      <Footer />
     </main>
   )
 }

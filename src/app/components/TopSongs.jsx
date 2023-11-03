@@ -1,68 +1,77 @@
 import React from "react";
-import MainImage from "../../../public/assets/main.png";
 import Image from "next/image";
 import { AiFillPlayCircle } from "react-icons/ai";
+import Shaan from '../../../public/assets/clients/shan.webp'
+import Neeti from '../../../public/assets/clients/neetimohan.webp'
+import Asha from '../../../public/assets/clients/ashabhosle.webp'
+import Beyonce from '../../../public/assets/clients/beyonce.webp'
+import Chris from '../../../public/assets/clients/chrisbrown.webp'
+import Justin from '../../../public/assets/clients/JustinBieber.webp'
+import LadyGaga from '../../../public/assets/clients/ladygaga.webp'
+import Madona from '../../../public/assets/clients/madona.webp'
+import Shreya from '../../../public/assets/clients/shreya.webp'
+import Taylor from '../../../public/assets/clients/TaylorSwift.webp'
 
 const TopSongs = () => {
   const data = [
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Shaan",
+      profileIamge: Shaan,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Neet Mohan",
+      profileIamge: Neeti,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Asha Bhosle",
+      profileIamge: Asha,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Beyonce",
+      profileIamge: Beyonce,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Chris Brown",
+      profileIamge: Chris,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Justin Bieber",
+      profileIamge: Justin,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Lady Gaga",
+      profileIamge: LadyGaga,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Taylor Swift",
+      profileIamge: Taylor,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Madona",
+      profileIamge: Madona,
       description: "Song description",
     },
     {
       songName: "Song Name",
-      artistName: "Snger Name",
-      profileIamge: MainImage,
+      artistName: "Shreya Ghoshal",
+      profileIamge: Shreya,
       description: "Song description",
     },
   ];
@@ -87,7 +96,7 @@ const TopSongs = () => {
                     className="w-16 h-16 rounded-full"
                   />
                   <div className="flex justify-start flex-col items-center"> 
-                    <h1>{item.artistName}</h1>
+                    <h1 className="font-semibold">{item.artistName}</h1>
                     <h1>{item.songName}</h1>
                   </div>
                 </div>
