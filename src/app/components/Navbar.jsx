@@ -2,7 +2,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
-import { RiCloseLine } from "react-icons/ri"; // Corrected the import
+import { RiCloseLine } from "react-icons/ri";
+import { acme } from '../fonts'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
   return (
     <>
 <main className="hidden md:flex justify-between items-center px-5">
-  <Link href={"/"} className="font-bold text-4xl text-white">
+  <Link href={"/"} className={`font-bold text-4xl text-white ${acme.className}`}>
     Song<span className="text-rose-600">usic</span>
   </Link>
   <ul className="flex justify-center items-center space-x-4 text-white">

@@ -1,3 +1,4 @@
+import Booking from "./components/Booking";
 import Clients from "./components/Clients";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
@@ -10,8 +11,9 @@ export default function Home() {
     <main className='w-screen'>
       <Main />
       <Services />
-      <TopSongs />
       <Clients />
+      <TopSongs />
+      <Booking />
       <Footer />
     </main>
   )

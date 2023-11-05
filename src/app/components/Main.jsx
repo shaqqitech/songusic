@@ -3,10 +3,11 @@ import React from "react";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 import MainImage from "../../../public/assets/main.png";
 import Navbar from "./Navbar";
+import { source_sans_3 } from '../fonts'
 
 const Main = () => {
   return (
-    <main className="w-screen h-screen relative bg-gradient-to-r from-purple-900 to-pink-900 overflow-hidden">
+    <main className="w-screen h-screen relative bg-gradient-to-r from-cyan-700 to-pink-800 overflow-hidden">
       <div className="absolute lg:px-20 px-5 py-4 w-full z-50">
         <Navbar />
       </div>
@@ -14,7 +15,7 @@ const Main = () => {
         {/* Text Content */}
         <div className="w-full h-full top-0 left-0 opacity-90 absolute lg:relative z-10">
           <div className="w-full h-full flex flex-col justify-center items-center lg:text-start md:px-20 text-center px-2 space-y-10 md:space-y-16 lg:space-y-6 bg-black/40 lg:bg-transparent">
-            <h1 className="font-extrabold text-4xl lg:text-5xl text-white lg:text-start">
+            <h1 className={`font-extrabold text-4xl lg:text-5xl text-white lg:text-start ${source_sans_3.className}`}>
               BEST MUSIC FOR YOUR NEXT PROJECT
             </h1>
             <p className="w-5/6 md:w-full mt-3 text-white">
@@ -41,7 +42,7 @@ const Main = () => {
             //   layout="fill" // Make the image cover the entire container
             sizes="100%"
             objectFit="cover" // Cover the container with the image
-            className="w-full h-full -bottom-10 absolute  "
+            className="w-full lg:w-2/3 h-full left-10 md:left-20 -bottom-10 absolute  "
           />
         </div>
       </div>

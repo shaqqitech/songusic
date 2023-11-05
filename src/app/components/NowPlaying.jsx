@@ -1,18 +1,23 @@
 'use client'
-import React from 'react';
+import React, { useState } from 'react';
 import { FaPlay, FaPause, FaVolumeUp, FaVolumeMute } from 'react-icons/fa';
 
 const NowPlaying = () => {
+  const [play, setPlay] = useState(false);
+  const [mute, setMute] = useState(false);
+
   const handlePlayPause = () => {
     // Add your play/pause functionality here
+    setPlay(!play);
   };
 
   const handleVolumeToggle = () => {
     // Add your volume toggle functionality here
+    setMute(!mute);
   };
 
   return (
-    <div className="bg-gray-900 text-white py-8">
+    <div className="bg-gradient-to-l from-red-950 to-cyan-950 text-white py-8 h-20 px-4 flex justify-center items-center z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <h2 className="text-2xl font-semibold">Now Playing</h2>
@@ -20,10 +25,10 @@ const NowPlaying = () => {
         </div>
         <div className="flex items-center space-x-4">
           <button onClick={handlePlayPause}>
-            <FaPlay className="text-3xl" />
+            {play ? <FaPlay className="text-2xl" /> : <FaPause className="text-2xl" />}
           </button>
           <button onClick={handleVolumeToggle}>
-            <FaVolumeUp className="text-3xl" />
+            {mute ? <FaVolumeMute className="text-2xl" /> : <FaVolumeUp className="text-2xl" />}
           </button>
         </div>
       </div>
