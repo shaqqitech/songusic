@@ -73,7 +73,7 @@ const Clients = () => {
                 <div
                   className={`w-52 h-52  bg-cover bg-center rounded-xl`}
                 >
-                  <Image src={item.img} width={1} height={1} sizes="100%" className="w-full h-full bg-cover bg-no-repeat rounded-xl" />
+                  <Image src={item.img} alt="Clients" width={1} height={1} sizes="100%" className="w-full h-full bg-cover bg-no-repeat rounded-xl" />
                 </div>
               </div>
             ))}
