@@ -42,7 +42,7 @@ const Clients = () => {
   };
 
   return (
-    <main className="w-full bg-gradient-to-r from-gray-700 to-gray-900 p-10 text-white grid place-content-center ">
+    <main className="w-full bg-gradient-to-r from-gray-900 to-gray-700 p-10 text-white grid place-content-center ">
       <h1 className="font-bold text-4xl mb-4 text-center">Happy Clients</h1>
       <div className="w-screen h-full py-5  flex justify-between ">
         <div className="w-[4%] h-full flex flex-col justify-center items-center space-y-1 font-bold rounded-tr-xl rounded-br-xl bg-gray-800">
