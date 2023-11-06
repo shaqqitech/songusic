@@ -12,7 +12,7 @@ const Booking = () => {
   ];
 
   return (
-    <div className="bg-black text-white px-5 py-10">
+    <div className=" bg-gradient-to-r from-gray-900 to-gray-700 text-white px-5 py-10">
       <div className="flex flex-col items-center justify-center">
         <div className="bg-gradient-to-r from-cyan-700 to-pink-800 w-full md:w-2/3 lg:w-1/2 bg-gray-800 p-8 rounded-lg shadow-lg">
           <h1 className="text-4xl mb-6">Book a Music Event</h1>
