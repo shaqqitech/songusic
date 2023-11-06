@@ -3,16 +3,16 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
-import Shaan from "../../../public/assets/clients/shan.webp";
-import Neeti from "../../../public/assets/clients/neetimohan.webp";
-import Asha from "../../../public/assets/clients/ashabhosle.webp";
-import Beyonce from "../../../public/assets/clients/beyonce.webp";
-import Chris from "../../../public/assets/clients/chrisbrown.webp";
-import Justin from "../../../public/assets/clients/JustinBieber.webp";
-import LadyGaga from "../../../public/assets/clients/ladygaga.webp";
-import Madona from "../../../public/assets/clients/madona.webp";
-import Shreya from "../../../public/assets/clients/shreya.webp";
-import Taylor from "../../../public/assets/clients/TaylorSwift.webp";
+import Shaan from "../../../public/assets/topsongs/shan.webp";
+import Neeti from "../../../public/assets/topsongs/neetimohan.webp";
+import Asha from "../../../public/assets/topsongs/ashabhosle.webp";
+import Beyonce from "../../../public/assets/topsongs/beyonce.webp";
+import Chris from "../../../public/assets/topsongs/chrisbrown.webp";
+import Justin from "../../../public/assets/topsongs/JustinBieber.webp";
+import LadyGaga from "../../../public/assets/topsongs/ladygaga.webp";
+import Madona from "../../../public/assets/topsongs/madona.webp";
+import Shreya from "../../../public/assets/topsongs/shreya.webp";
+import Taylor from "../../../public/assets/topsongs/TaylorSwift.webp";
 import NowPlaying from "./NowPlaying";
 
 const TopSongs = () => {
